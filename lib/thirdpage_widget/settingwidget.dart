@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class EScreen extends StatefulWidget {
+class SettingWidget extends StatefulWidget {
   //EScreen({Key? key, required this.title}) : super(key: key);
-  EScreen({Key? key}) : super(key: key);
+  SettingWidget({Key? key}) : super(key: key);
   //final String title;
   @override
-  _EScreenState createState() => _EScreenState();
+  _SettingWidgetState createState() => _SettingWidgetState();
 }
 
-class _EScreenState extends State<EScreen> {
+class _SettingWidgetState extends State<SettingWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

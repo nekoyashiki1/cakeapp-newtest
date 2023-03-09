@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:cakeapp/provider/bottom_navigation_bar_provider.dart';
-import 'package:cakeapp/screen/h_screen.dart';
-import 'package:cakeapp/screen/o_screen.dart';
-import 'package:cakeapp/screen/g_screen.dart';
-import 'package:cakeapp/screen/e_screen.dart';
+import 'package:cakeapp/thirdpage_widget/matchwidget.dart';
+import 'package:cakeapp/thirdpage_widget/calendarwidger.dart';
+import 'package:cakeapp/thirdpage_widget/chatwidget.dart';
+import 'package:cakeapp/thirdpage_widget/settingwidget.dart';
 
 class thirdpage extends StatefulWidget {
   static const String routeName = '/app';
@@ -16,10 +16,10 @@ class thirdpage extends StatefulWidget {
 
 class _thirdpageState extends State<thirdpage> {
   var currentTab = [
-    HScreen(title: '１番目'),
-    OScreen(title: '2番目'),
-    GScreen(title: '3番目'),
-    EScreen(title: '4番目'),
+    MatchWidget(),
+    CalendarWidget(),
+    ChatWidget(),
+    SettingWidget(),
   ];
 
   @override
@@ -27,16 +27,6 @@ class _thirdpageState extends State<thirdpage> {
     final bottomNavigationBar =
     Provider.of<BottomNavigationBarProvider>(context);
     return Scaffold(
-      appBar: AppBar(
-        iconTheme: IconThemeData(
-            color: Colors.black
-        ),
-        title: const Text('メイン画面',
-          style: TextStyle(
-            color:   Colors.black,
-          ),),
-        backgroundColor: Colors.white,
-      ),
       body:
         currentTab[bottomNavigationBar.currentIndex],
         bottomNavigationBar: BottomNavigationBar(
@@ -61,41 +51,4 @@ class _thirdpageState extends State<thirdpage> {
         ),
          );
   }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      /*body: Center(
-
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-
-          children: [
-            Text('third',
-                style: TextStyle
-                  (fontSize: 50,)
-            ),
-            ElevatedButton(
-              onPressed: () {print("OK");},
-              child: const Text('入力完了'),
-            ),
-            //BottomNavigationBarTheme(data: data, child: child)
-          ],
-        ),
-
-      ),
-    );
-  }
-}*/

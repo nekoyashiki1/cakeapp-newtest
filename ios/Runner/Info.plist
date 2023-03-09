@@ -45,6 +45,12 @@
 	<false/>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>許可を得るのに必要な理由をここに書く</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>許可を得るのに必要な理由をここに書く</string>
+	<key>NSCameraUsageDescription</key>
+	<string>許可を得るのに必要な理由をここに書く</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 </dict>

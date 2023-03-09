@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>533727132184-32hqmcjjp15lb9add1l5h691krvhthbp.apps.googleusercontent.com</string>
+	<string>186128906065-j46ub79km7qf7beecq9j3q88bnst6ueh.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.533727132184-32hqmcjjp15lb9add1l5h691krvhthbp</string>
+	<string>com.googleusercontent.apps.186128906065-j46ub79km7qf7beecq9j3q88bnst6ueh</string>
 	<key>API_KEY</key>
-	<string>AIzaSyARITEtKOvvee0bTAQw2mpMA91yr6XAs4k</string>
+	<string>AIzaSyBSwrI98V6h9bAcknSAocQo4MTpu76n5EQ</string>
 	<key>GCM_SENDER_ID</key>
-	<string>533727132184</string>
+	<string>186128906065</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.example.untitled</string>
+	<string>com.example.cakeapp</string>
 	<key>PROJECT_ID</key>
-	<string>coriander-app-8a2f1</string>
+	<string>fire-e5bb1</string>
 	<key>STORAGE_BUCKET</key>
-	<string>coriander-app-8a2f1.appspot.com</string>
+	<string>fire-e5bb1.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:533727132184:ios:7517304374f50036cba16d</string>
+	<string>1:186128906065:ios:d02f9655bffa48b44f8570</string>
 </dict>
 </plist>

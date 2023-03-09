@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class CalendarWidget extends StatefulWidget {
+class ChatWidget extends StatefulWidget {
   //GScreen({Key? key, required this.title}) : super(key: key);
-  CalendarWidget({Key? key}) : super(key: key);
+  ChatWidget({Key? key}) : super(key: key);
   //final String title;
   @override
-  _CalendarWidgetState createState() => _CalendarWidgetState();
+  _ChatWidgetState createState() => _ChatWidgetState();
 }
 
-class _CalendarWidgetState extends State<CalendarWidget> {
+class _ChatWidgetState extends State<ChatWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
