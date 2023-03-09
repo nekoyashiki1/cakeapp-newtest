@@ -40,3 +40,4 @@ samples, guidance on mobile development, and a full API reference.
 # cakeapp-ver_nekoyashiki
 # cakeapp-ver_nekoyashiki
 # cakeapp-ver_nekoyashiki
+# cakeapp-newtest
